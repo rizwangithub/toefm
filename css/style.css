@@ -34,7 +34,7 @@ body {
 }
 
 a.navbar-brand img {
-    height: 50px;
+    height: 40px;
 }
 
 .navbar-fixed-top {
@@ -104,9 +104,7 @@ a.navbar-brand img {
     width: 100%;
 }
 
-.carousel-item {
-    height: 100vh;
-}
+
 
 /***********************************/
 .prev {
@@ -779,6 +777,7 @@ section.contact-form h3 {
     display: block;
 }
 
+/* 
 .carousel-item::before {
     content: "";
     background: rgba(0, 0, 0, 0.4);
@@ -790,7 +789,7 @@ section.contact-form h3 {
     height: 100%;
     position: absolute;
     z-index: 1;
-}
+} */
 
 .caption-wraper {
     height: 100vh;
@@ -800,11 +799,7 @@ section.contact-form h3 {
     position: relative;
 }
 
-.caption {
-    background: #16161640;
-    color: #000;
-    padding: 50px;
-}
+
 
 .main-footer a {
     color: #666;
@@ -1035,6 +1030,9 @@ section.our-clients {
 }
 
 @media (min-width: 768px) {
+    .carousel-item {
+        height: 100vh;
+    }
 
     .carousel-control-next,
     .carousel-control-prev {
@@ -1101,7 +1099,7 @@ section.our-clients {
 
     .caption h1 {
         color: #fff;
-        font-size: 46px;
+        font-size: 68px;
         font-weight: 700;
         margin: 0 0 15px 0;
     }
@@ -1190,7 +1188,7 @@ section.our-clients {
     }
 
     .container.caption-wraper {
-        height: 500px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1210,7 +1208,7 @@ section.our-clients {
     }
 
     a.navbar-brand img {
-        height: 50px;
+        height: 28px;
     }
 
     .services {
