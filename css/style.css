@@ -37,13 +37,21 @@ a.navbar-brand img {
     height: 40px;
 }
 
-.navbar-fixed-top {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-}
 
 /*************************************/
+.caption {
+    padding: 50px 0 30px 0;
+    line-height: 1;
+}
+
+.caption h1 {
+    line-height: 1;
+}
+
+.carousel-item {
+    padding: 50px 0;
+}
+
 .carousel-control-prev i,
 .carousel-control-next i {
     font-size: 28px;
@@ -303,7 +311,7 @@ nav.navbar.bg-light {
 }
 
 .footerLogo {
-    width: 120px;
+    height: 30px;
 }
 
 .services {
@@ -323,7 +331,7 @@ nav.navbar.bg-light {
 }
 
 .address {
-    background-image: url("../images/b2.jpg");
+    /* background-image: url("../images/b2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffff;
@@ -792,7 +800,7 @@ section.contact-form h3 {
 } */
 
 .caption-wraper {
-    height: 100vh;
+
     display: flex;
     align-items: center;
     z-index: 999;
@@ -1030,9 +1038,7 @@ section.our-clients {
 }
 
 @media (min-width: 768px) {
-    .carousel-item {
-        height: 100vh;
-    }
+
 
     .carousel-control-next,
     .carousel-control-prev {
