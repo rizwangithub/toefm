@@ -440,6 +440,7 @@ nav.navbar.bg-light {
     padding: 15px 0;
     font-size: 13px;
     color: #666;
+    margin-top: 30px;
     font-weight: 500;
 }
 
@@ -531,20 +532,22 @@ nav.navbar.bg-light {
 }
 
 .captionaria {
-    height: 60px;
+    height: 120px;
     display: flex;
     align-items: center;
     margin: 0;
     transition: all 0.3s;
     background-color: #fff;
+    padding: 20px;
 }
 
 .captionaria h4 {
-    font-size: 16px;
+    font-size: 18px;
     padding: 15px 10px;
     color: #666;
     margin: 0;
     transition: all 0.3s;
+    line-height: 1.4;
 }
 
 .eh-row {
